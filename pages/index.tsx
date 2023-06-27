@@ -1,9 +1,10 @@
 import { FC } from "react";
+import { Button } from "@nextui-org/react";
 
 const HomePage: FC = () => {
   return (
     <>
-      <h1>Hello</h1>
+      <Button color="gradient">Click me</Button>
     </>
   );
 };
